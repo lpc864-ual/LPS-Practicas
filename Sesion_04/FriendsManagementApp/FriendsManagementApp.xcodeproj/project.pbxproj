@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359CD74A2CBED0B500C6B6EE /* Amigo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7402CBED0B500C6B6EE /* Amigo.swift */; };
+		359CD74B2CBED0B500C6B6EE /* FriendsManagementAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7422CBED0B500C6B6EE /* FriendsManagementAppApp.swift */; };
+		359CD74C2CBED0B500C6B6EE /* ListaAmigos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7432CBED0B500C6B6EE /* ListaAmigos.swift */; };
+		359CD74D2CBED0B500C6B6EE /* ModeloDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7442CBED0B500C6B6EE /* ModeloDatos.swift */; };
+		359CD74E2CBED0B500C6B6EE /* VistaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7452CBED0B500C6B6EE /* VistaDatos.swift */; };
+		359CD74F2CBED0B500C6B6EE /* VistaDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7462CBED0B500C6B6EE /* VistaDetalle.swift */; };
+		359CD7502CBED0B500C6B6EE /* VistaFila.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7472CBED0B500C6B6EE /* VistaFila.swift */; };
+		359CD7522CBED0B500C6B6EE /* VistaMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7492CBED0B500C6B6EE /* VistaMapa.swift */; };
+		359CD75E2CBED15300C6B6EE /* VistaIdentificacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD75D2CBED15300C6B6EE /* VistaIdentificacion.swift */; };
+		359CD7622CBED17A00C6B6EE /* VistaChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7612CBED17A00C6B6EE /* VistaChat.swift */; };
+		359CD7662CBED1B600C6B6EE /* Mensaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7642CBED1B300C6B6EE /* Mensaje.swift */; };
+		35C5B3B22CC26FC1007EBD4C /* VistaAddAmigo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C5B3B12CC26FC1007EBD4C /* VistaAddAmigo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35DEA9112CAC5C590055ABBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DEA8F82CAC5C570055ABBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DEA8FF2CAC5C570055ABBA;
+			remoteInfo = FriendsManagementApp;
+		};
+		35DEA91B2CAC5C590055ABBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DEA8F82CAC5C570055ABBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DEA8FF2CAC5C570055ABBA;
+			remoteInfo = FriendsManagementApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		359CD7402CBED0B500C6B6EE /* Amigo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amigo.swift; sourceTree = "<group>"; };
+		359CD7422CBED0B500C6B6EE /* FriendsManagementAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsManagementAppApp.swift; sourceTree = "<group>"; };
+		359CD7432CBED0B500C6B6EE /* ListaAmigos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaAmigos.swift; sourceTree = "<group>"; };
+		359CD7442CBED0B500C6B6EE /* ModeloDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloDatos.swift; sourceTree = "<group>"; };
+		359CD7452CBED0B500C6B6EE /* VistaDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDatos.swift; sourceTree = "<group>"; };
+		359CD7462CBED0B500C6B6EE /* VistaDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDetalle.swift; sourceTree = "<group>"; };
+		359CD7472CBED0B500C6B6EE /* VistaFila.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaFila.swift; sourceTree = "<group>"; };
+		359CD7492CBED0B500C6B6EE /* VistaMapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaMapa.swift; sourceTree = "<group>"; };
+		359CD75D2CBED15300C6B6EE /* VistaIdentificacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaIdentificacion.swift; sourceTree = "<group>"; };
+		359CD7612CBED17A00C6B6EE /* VistaChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaChat.swift; sourceTree = "<group>"; };
+		359CD7642CBED1B300C6B6EE /* Mensaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensaje.swift; sourceTree = "<group>"; };
+		35C5B3B12CC26FC1007EBD4C /* VistaAddAmigo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaAddAmigo.swift; sourceTree = "<group>"; };
+		35DEA9002CAC5C570055ABBA /* FriendsManagementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsManagementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DEA9102CAC5C590055ABBA /* FriendsManagementAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsManagementAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DEA91A2CAC5C590055ABBA /* FriendsManagementAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsManagementAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		35DEA9022CAC5C570055ABBA /* FriendsManagementApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FriendsManagementApp;
+			sourceTree = "<group>";
+		};
+		35DEA9132CAC5C590055ABBA /* FriendsManagementAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FriendsManagementAppTests;
+			sourceTree = "<group>";
+		};
+		35DEA91D2CAC5C590055ABBA /* FriendsManagementAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FriendsManagementAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35DEA8FD2CAC5C570055ABBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DEA90D2CAC5C590055ABBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DEA9172CAC5C590055ABBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359CD7722CBED39E00C6B6EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				359CD7402CBED0B500C6B6EE /* Amigo.swift */,
+				359CD7642CBED1B300C6B6EE /* Mensaje.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		359CD7732CBED3F200C6B6EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				359CD7442CBED0B500C6B6EE /* ModeloDatos.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		359CD7742CBED44800C6B6EE /* VistaChat */ = {
+			isa = PBXGroup;
+			children = (
+				359CD7612CBED17A00C6B6EE /* VistaChat.swift */,
+			);
+			path = VistaChat;
+			sourceTree = "<group>";
+		};
+		359CD7752CBED45F00C6B6EE /* VistaDetalle */ = {
+			isa = PBXGroup;
+			children = (
+				359CD7452CBED0B500C6B6EE /* VistaDatos.swift */,
+				359CD7462CBED0B500C6B6EE /* VistaDetalle.swift */,
+				359CD7472CBED0B500C6B6EE /* VistaFila.swift */,
+				359CD7492CBED0B500C6B6EE /* VistaMapa.swift */,
+			);
+			path = VistaDetalle;
+			sourceTree = "<group>";
+		};
+		359CD7762CBED47F00C6B6EE /* VistaIdentificacion */ = {
+			isa = PBXGroup;
+			children = (
+				359CD75D2CBED15300C6B6EE /* VistaIdentificacion.swift */,
+			);
+			path = VistaIdentificacion;
+			sourceTree = "<group>";
+		};
+		359CD7772CBED49F00C6B6EE /* VistaListaAmigos */ = {
+			isa = PBXGroup;
+			children = (
+				359CD7432CBED0B500C6B6EE /* ListaAmigos.swift */,
+				35C5B3B12CC26FC1007EBD4C /* VistaAddAmigo.swift */,
+			);
+			path = VistaListaAmigos;
+			sourceTree = "<group>";
+		};
+		359CD7782CBED4BC00C6B6EE /* FriendsManagement */ = {
+			isa = PBXGroup;
+			children = (
+				359CD7422CBED0B500C6B6EE /* FriendsManagementAppApp.swift */,
+			);
+			path = FriendsManagement;
+			sourceTree = "<group>";
+		};
+		35DEA8F72CAC5C570055ABBA = {
+			isa = PBXGroup;
+			children = (
+				359CD7782CBED4BC00C6B6EE /* FriendsManagement */,
+				359CD7772CBED49F00C6B6EE /* VistaListaAmigos */,
+				359CD7762CBED47F00C6B6EE /* VistaIdentificacion */,
+				359CD7752CBED45F00C6B6EE /* VistaDetalle */,
+				359CD7742CBED44800C6B6EE /* VistaChat */,
+				359CD7732CBED3F200C6B6EE /* ViewModel */,
+				359CD7722CBED39E00C6B6EE /* Model */,
+				35DEA9022CAC5C570055ABBA /* FriendsManagementApp */,
+				35DEA9132CAC5C590055ABBA /* FriendsManagementAppTests */,
+				35DEA91D2CAC5C590055ABBA /* FriendsManagementAppUITests */,
+				35DEA9012CAC5C570055ABBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35DEA9012CAC5C570055ABBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35DEA9002CAC5C570055ABBA /* FriendsManagementApp.app */,
+				35DEA9102CAC5C590055ABBA /* FriendsManagementAppTests.xctest */,
+				35DEA91A2CAC5C590055ABBA /* FriendsManagementAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35DEA8FF2CAC5C570055ABBA /* FriendsManagementApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DEA9242CAC5C590055ABBA /* Build configuration list for PBXNativeTarget "FriendsManagementApp" */;
+			buildPhases = (
+				35DEA8FC2CAC5C570055ABBA /* Sources */,
+				35DEA8FD2CAC5C570055ABBA /* Frameworks */,
+				35DEA8FE2CAC5C570055ABBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				35DEA9022CAC5C570055ABBA /* FriendsManagementApp */,
+			);
+			name = FriendsManagementApp;
+			packageProductDependencies = (
+			);
+			productName = FriendsManagementApp;
+			productReference = 35DEA9002CAC5C570055ABBA /* FriendsManagementApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35DEA90F2CAC5C590055ABBA /* FriendsManagementAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DEA9272CAC5C590055ABBA /* Build configuration list for PBXNativeTarget "FriendsManagementAppTests" */;
+			buildPhases = (
+				35DEA90C2CAC5C590055ABBA /* Sources */,
+				35DEA90D2CAC5C590055ABBA /* Frameworks */,
+				35DEA90E2CAC5C590055ABBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DEA9122CAC5C590055ABBA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				35DEA9132CAC5C590055ABBA /* FriendsManagementAppTests */,
+			);
+			name = FriendsManagementAppTests;
+			packageProductDependencies = (
+			);
+			productName = FriendsManagementAppTests;
+			productReference = 35DEA9102CAC5C590055ABBA /* FriendsManagementAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35DEA9192CAC5C590055ABBA /* FriendsManagementAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DEA92A2CAC5C590055ABBA /* Build configuration list for PBXNativeTarget "FriendsManagementAppUITests" */;
+			buildPhases = (
+				35DEA9162CAC5C590055ABBA /* Sources */,
+				35DEA9172CAC5C590055ABBA /* Frameworks */,
+				35DEA9182CAC5C590055ABBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DEA91C2CAC5C590055ABBA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				35DEA91D2CAC5C590055ABBA /* FriendsManagementAppUITests */,
+			);
+			name = FriendsManagementAppUITests;
+			packageProductDependencies = (
+			);
+			productName = FriendsManagementAppUITests;
+			productReference = 35DEA91A2CAC5C590055ABBA /* FriendsManagementAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35DEA8F82CAC5C570055ABBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					35DEA8FF2CAC5C570055ABBA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					35DEA90F2CAC5C590055ABBA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 35DEA8FF2CAC5C570055ABBA;
+					};
+					35DEA9192CAC5C590055ABBA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 35DEA8FF2CAC5C570055ABBA;
+					};
+				};
+			};
+			buildConfigurationList = 35DEA8FB2CAC5C570055ABBA /* Build configuration list for PBXProject "FriendsManagementApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35DEA8F72CAC5C570055ABBA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 35DEA9012CAC5C570055ABBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35DEA8FF2CAC5C570055ABBA /* FriendsManagementApp */,
+				35DEA90F2CAC5C590055ABBA /* FriendsManagementAppTests */,
+				35DEA9192CAC5C590055ABBA /* FriendsManagementAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35DEA8FE2CAC5C570055ABBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DEA90E2CAC5C590055ABBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DEA9182CAC5C590055ABBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35DEA8FC2CAC5C570055ABBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359CD74A2CBED0B500C6B6EE /* Amigo.swift in Sources */,
+				35C5B3B22CC26FC1007EBD4C /* VistaAddAmigo.swift in Sources */,
+				359CD74B2CBED0B500C6B6EE /* FriendsManagementAppApp.swift in Sources */,
+				359CD74C2CBED0B500C6B6EE /* ListaAmigos.swift in Sources */,
+				359CD74D2CBED0B500C6B6EE /* ModeloDatos.swift in Sources */,
+				359CD7662CBED1B600C6B6EE /* Mensaje.swift in Sources */,
+				359CD74E2CBED0B500C6B6EE /* VistaDatos.swift in Sources */,
+				359CD7622CBED17A00C6B6EE /* VistaChat.swift in Sources */,
+				359CD74F2CBED0B500C6B6EE /* VistaDetalle.swift in Sources */,
+				359CD7502CBED0B500C6B6EE /* VistaFila.swift in Sources */,
+				359CD75E2CBED15300C6B6EE /* VistaIdentificacion.swift in Sources */,
+				359CD7522CBED0B500C6B6EE /* VistaMapa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DEA90C2CAC5C590055ABBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DEA9162CAC5C590055ABBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35DEA9122CAC5C590055ABBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DEA8FF2CAC5C570055ABBA /* FriendsManagementApp */;
+			targetProxy = 35DEA9112CAC5C590055ABBA /* PBXContainerItemProxy */;
+		};
+		35DEA91C2CAC5C590055ABBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DEA8FF2CAC5C570055ABBA /* FriendsManagementApp */;
+			targetProxy = 35DEA91B2CAC5C590055ABBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35DEA9222CAC5C590055ABBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35DEA9232CAC5C590055ABBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35DEA9252CAC5C590055ABBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FriendsManagementApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.ual.FriendsManagementApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35DEA9262CAC5C590055ABBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FriendsManagementApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.ual.FriendsManagementApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35DEA9282CAC5C590055ABBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.ual.FriendsManagementAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsManagementApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendsManagementApp";
+			};
+			name = Debug;
+		};
+		35DEA9292CAC5C590055ABBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.ual.FriendsManagementAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsManagementApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendsManagementApp";
+			};
+			name = Release;
+		};
+		35DEA92B2CAC5C590055ABBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.ual.FriendsManagementAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FriendsManagementApp;
+			};
+			name = Debug;
+		};
+		35DEA92C2CAC5C590055ABBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.ual.FriendsManagementAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FriendsManagementApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35DEA8FB2CAC5C570055ABBA /* Build configuration list for PBXProject "FriendsManagementApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DEA9222CAC5C590055ABBA /* Debug */,
+				35DEA9232CAC5C590055ABBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DEA9242CAC5C590055ABBA /* Build configuration list for PBXNativeTarget "FriendsManagementApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DEA9252CAC5C590055ABBA /* Debug */,
+				35DEA9262CAC5C590055ABBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DEA9272CAC5C590055ABBA /* Build configuration list for PBXNativeTarget "FriendsManagementAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DEA9282CAC5C590055ABBA /* Debug */,
+				35DEA9292CAC5C590055ABBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DEA92A2CAC5C590055ABBA /* Build configuration list for PBXNativeTarget "FriendsManagementAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DEA92B2CAC5C590055ABBA /* Debug */,
+				35DEA92C2CAC5C590055ABBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35DEA8F82CAC5C570055ABBA /* Project object */;
+}

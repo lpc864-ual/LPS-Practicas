@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356D92DC2D008C04006FBAF3 /* VistaImagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D92D82D008C04006FBAF3 /* VistaImagen.swift */; };
 		359CD74A2CBED0B500C6B6EE /* Amigo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7402CBED0B500C6B6EE /* Amigo.swift */; };
-		359CD74B2CBED0B500C6B6EE /* FriendsManagementAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7422CBED0B500C6B6EE /* FriendsManagementAppApp.swift */; };
 		359CD74C2CBED0B500C6B6EE /* ListaAmigos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7432CBED0B500C6B6EE /* ListaAmigos.swift */; };
 		359CD74D2CBED0B500C6B6EE /* ModeloDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7442CBED0B500C6B6EE /* ModeloDatos.swift */; };
 		359CD74E2CBED0B500C6B6EE /* VistaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CD7452CBED0B500C6B6EE /* VistaDatos.swift */; };
@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		356D92D82D008C04006FBAF3 /* VistaImagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaImagen.swift; sourceTree = "<group>"; };
 		359CD7402CBED0B500C6B6EE /* Amigo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amigo.swift; sourceTree = "<group>"; };
-		359CD7422CBED0B500C6B6EE /* FriendsManagementAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsManagementAppApp.swift; sourceTree = "<group>"; };
 		359CD7432CBED0B500C6B6EE /* ListaAmigos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaAmigos.swift; sourceTree = "<group>"; };
 		359CD7442CBED0B500C6B6EE /* ModeloDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloDatos.swift; sourceTree = "<group>"; };
 		359CD7452CBED0B500C6B6EE /* VistaDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDatos.swift; sourceTree = "<group>"; };
@@ -127,6 +127,7 @@
 		359CD7752CBED45F00C6B6EE /* VistaDetalle */ = {
 			isa = PBXGroup;
 			children = (
+				356D92D82D008C04006FBAF3 /* VistaImagen.swift */,
 				359CD7452CBED0B500C6B6EE /* VistaDatos.swift */,
 				359CD7462CBED0B500C6B6EE /* VistaDetalle.swift */,
 				359CD7472CBED0B500C6B6EE /* VistaFila.swift */,
@@ -152,18 +153,9 @@
 			path = VistaListaAmigos;
 			sourceTree = "<group>";
 		};
-		359CD7782CBED4BC00C6B6EE /* FriendsManagement */ = {
-			isa = PBXGroup;
-			children = (
-				359CD7422CBED0B500C6B6EE /* FriendsManagementAppApp.swift */,
-			);
-			path = FriendsManagement;
-			sourceTree = "<group>";
-		};
 		35DEA8F72CAC5C570055ABBA = {
 			isa = PBXGroup;
 			children = (
-				359CD7782CBED4BC00C6B6EE /* FriendsManagement */,
 				359CD7772CBED49F00C6B6EE /* VistaListaAmigos */,
 				359CD7762CBED47F00C6B6EE /* VistaIdentificacion */,
 				359CD7752CBED45F00C6B6EE /* VistaDetalle */,
@@ -333,12 +325,12 @@
 			files = (
 				359CD74A2CBED0B500C6B6EE /* Amigo.swift in Sources */,
 				35C5B3B22CC26FC1007EBD4C /* VistaAddAmigo.swift in Sources */,
-				359CD74B2CBED0B500C6B6EE /* FriendsManagementAppApp.swift in Sources */,
 				359CD74C2CBED0B500C6B6EE /* ListaAmigos.swift in Sources */,
 				359CD74D2CBED0B500C6B6EE /* ModeloDatos.swift in Sources */,
 				359CD7662CBED1B600C6B6EE /* Mensaje.swift in Sources */,
 				359CD74E2CBED0B500C6B6EE /* VistaDatos.swift in Sources */,
 				359CD7622CBED17A00C6B6EE /* VistaChat.swift in Sources */,
+				356D92DC2D008C04006FBAF3 /* VistaImagen.swift in Sources */,
 				359CD74F2CBED0B500C6B6EE /* VistaDetalle.swift in Sources */,
 				359CD7502CBED0B500C6B6EE /* VistaFila.swift in Sources */,
 				359CD75E2CBED15300C6B6EE /* VistaIdentificacion.swift in Sources */,

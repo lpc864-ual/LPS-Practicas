@@ -81,9 +81,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		356D92E62D009648006FBAF3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				351F353D2CD134B200C72A42 /* CoreDataManager.swift */,
+				351F35432CD1353000C72A42 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		356D92E72D009654006FBAF3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				351F35452CD1460B00C72A42 /* ImagePicker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		35F66E922CC28638005A4D37 = {
 			isa = PBXGroup;
 			children = (
+				356D92E72D009654006FBAF3 /* Extensions */,
+				356D92E62D009648006FBAF3 /* ViewModel */,
 				35F66EC92CC2865F005A4D37 /* Model */,
 				35F66EE82CC287D8005A4D37 /* GestionMascotas */,
 				35F66EEE2CC287DE005A4D37 /* GestionMascotasTests */,
@@ -123,9 +142,6 @@
 			children = (
 				35F66EE42CC287D8005A4D37 /* Preview Content */,
 				35F66EE52CC287D8005A4D37 /* Assets.xcassets */,
-				351F353D2CD134B200C72A42 /* CoreDataManager.swift */,
-				351F35432CD1353000C72A42 /* ViewModel.swift */,
-				351F35452CD1460B00C72A42 /* ImagePicker.swift */,
 				351F35472CD169F300C72A42 /* AddMascotaView.swift */,
 				35F66EE62CC287D8005A4D37 /* ListaPersonasView.swift */,
 				35F66EE72CC287D8005A4D37 /* GestionMascotasApp.swift */,

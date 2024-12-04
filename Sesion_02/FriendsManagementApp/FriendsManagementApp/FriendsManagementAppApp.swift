@@ -11,7 +11,7 @@ import SwiftUI
 struct FriendsManagementAppApp: App {
     var body: some Scene {
         WindowGroup {
-            VistaMapa()
+            VistaDetalle()
         }
     }
 }
